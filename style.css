@@ -182,7 +182,6 @@ button {
     color: #00a4ff;
 }
 .body {
-    height: 620px;
     margin-top: 15px;
 }
 .body-bh {
@@ -200,7 +199,6 @@ button {
     text-decoration: none;
 }
 .box-bd {
-    height: 558px;
     width: 1215px;
 }
 .box-bd li {
@@ -214,18 +212,87 @@ button {
 }
 .box-bd ul li img {
     width: 100%;
-    height: 155px;
 }
 .box-bd ul li h4 {
-    padding: 25px 20px;
+    margin: 20px;
+    color: #484848;
+    font-size: 14px;
+    font-weight: 400;
 }
 .box-bd ul li p {
-
+    margin-left: 20px;
+    font-size: 12px;
+    color: #999;;
 }
 .box-bd ul li span {
-
+    color: #ff7c2d;
 }
-
+/*清除浮动的*/
+.clearfix:before,
+.clearfix:after {
+    content: "";
+    display: table;
+}
+.clearfix:after {
+    clear: both;
+}
+.clearfix {
+    *zoom: 1;
+}
+.foot {
+    height: 430px;
+    background-color: #ffffff;
+}
+.foot-l {
+    float: left;
+     width: 435px;
+     height: 150px;
+     padding: 35px 20px;
+ }
+.foot-l p {
+    margin-top: 25px;
+    font-size: 12px;
+    color: #666666;
+}
+.foot-l a {
+    float: left;
+    margin-top: 15px;
+    width: 118px;
+    height: 34px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 34px;
+    color: #00a4ff;
+    border: 1px solid #00a4ff;
+}
+.foot-l a:hover {
+    background-color: #00a4ff;
+    color: #ffffff;
+}
+.links {
+    float: right;
+    margin-right: 30px;
+}
+.links dl {
+    float: left;
+    margin-left: 140px;
+    margin-top: 34px;
+}
+.links dt {
+    height: 35px;
+    font-size: 16px;
+    color: #333333;
+}
+.links dl a {
+    font-size: 12px;
+    color: #333333;
+    text-decoration: none;
+}
+.links dl a:hover {
+    color: #00a4ff;
+}
 
 
 

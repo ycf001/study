@@ -202,6 +202,7 @@ button {
     width: 1215px;
 }
 .box-bd li {
+    position: relative;
     float: left;
     height: 270px;
     width: 228px;
@@ -291,6 +292,33 @@ button {
     text-decoration: none;
 }
 .links dl a:hover {
+    color: #00a4ff;
+}
+#hot {
+    width: 40px;
+    height: 20px;
+    position: absolute;
+    right: -5px;
+}
+.fixedbar {
+    position: fixed;
+    top: 200px;
+    left: 50%;
+    margin-left: -780px;
+    z-index: 200;
+    width: 180px;
+    height: 430px;
+    background-color: #ffffff;
+}
+.fixedbar li {
+    margin: 15px 0 0 25px;
+}
+.fixedbar a {
+    font-size: 14px;
+    text-decoration: none;
+    color: #8d8d8d;
+}
+.fixedbar a:hover {
     color: #00a4ff;
 }
 
